@@ -1,0 +1,536 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1519 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\Init.h
+[v _init init `(v  1 e 1 0 ]
+"21 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\MLX_read.h
+[v _warten_auf_SSP_flag warten_auf_SSP_flag `(v  1 e 1 0 ]
+"29
+[v _MLX_read MLX_read `(v  1 e 1 0 ]
+"207 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\PGM_5.c
+[v _main main `(v  1 e 1 0 ]
+"339
+[v _von_sensor_VR_bis_mitte von_sensor_VR_bis_mitte `(v  1 e 1 0 ]
+"349
+[v _von_mitte_bis_wieder_wand von_mitte_bis_wieder_wand `(v  1 e 1 0 ]
+"383
+[v _von_mitte_bis_wieder_wand_in_schwarzeplatte von_mitte_bis_wieder_wand_in_schwarzeplatte `(v  1 e 1 0 ]
+"420
+[v _rechts90grad rechts90grad `(v  1 e 1 0 ]
+"435
+[v _links90grad links90grad `(v  1 e 1 0 ]
+"450
+[v _omnifakelinks omnifakelinks `(v  1 e 1 0 ]
+"487
+[v _omnifakerechts omnifakerechts `(v  1 e 1 0 ]
+"546
+[v _Werte_auf_LCD_anzeigen Werte_auf_LCD_anzeigen `(v  1 e 1 0 ]
+"559
+[v _opfer opfer `(v  1 e 1 0 ]
+"650
+[v _kit_abwerfen kit_abwerfen `(v  1 e 1 0 ]
+"674
+[v _anderwandlang anderwandlang `(v  1 e 1 0 ]
+"724
+[v _schwarzeplatte schwarzeplatte `(v  1 e 1 0 ]
+"796
+[v _hindernis hindernis `(v  1 e 1 0 ]
+"827
+[v _im_Kreis_faren im_Kreis_faren `(v  1 e 1 0 ]
+"859
+[v _Power_Ausrichten Power_Ausrichten `(v  1 e 1 0 ]
+"870
+[v _ausrichten ausrichten `(v  1 e 1 0 ]
+"892
+[v _vorne_ausrichten vorne_ausrichten `(v  1 e 1 0 ]
+"982
+[v _hinten_ausrichten hinten_ausrichten `(v  1 e 1 0 ]
+"1048
+[v _links_ausrichten links_ausrichten `(v  1 e 1 0 ]
+"1072
+[v _rechts_ausrichten rechts_ausrichten `(v  1 e 1 0 ]
+"1149
+[v _Strecke_fahren Strecke_fahren `(v  1 e 1 0 ]
+"1162
+[v _Interrupt Interrupt `II(v  1 e 1 0 ]
+"349 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1519.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"427
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"489
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"551
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"613
+[v _PORTD PORTD `VEuc  1 e 1 @15 ]
+"675
+[v _PORTE PORTE `VEuc  1 e 1 @16 ]
+"713
+[v _PIR1 PIR1 `VEuc  1 e 1 @17 ]
+"775
+[v _PIR2 PIR2 `VEuc  1 e 1 @18 ]
+"809
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"829
+[v _TMR1 TMR1 `VEus  1 e 2 @22 ]
+"876
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+"948
+[v _T1GCON T1GCON `VEuc  1 e 1 @25 ]
+"1038
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1058
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1129
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1191
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1253
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1315
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"1377
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+"1409
+[v _PIE1 PIE1 `VEuc  1 e 1 @145 ]
+"1471
+[v _PIE2 PIE2 `VEuc  1 e 1 @146 ]
+"1505
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1852
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1872
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"1952
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2018
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2080
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2142
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2204
+[v _LATD LATD `VEuc  1 e 1 @271 ]
+"2274
+[v _LATE LATE `VEuc  1 e 1 @272 ]
+"2424
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2477
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2535
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2597
+[v _ANSELD ANSELD `VEuc  1 e 1 @399 ]
+"2667
+[v _ANSELE ANSELE `VEuc  1 e 1 @400 ]
+"3213
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3304
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @529 ]
+"3342
+[v _SSPADD SSPADD `VEuc  1 e 1 @530 ]
+"3418
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @532 ]
+"3540
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @533 ]
+"3995
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"4035
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"4106
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @664 ]
+"4146
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @666 ]
+"4210
+[v _IOCBP IOCBP `VEuc  1 e 1 @916 ]
+"4280
+[v _IOCBN IOCBN `VEuc  1 e 1 @917 ]
+"4350
+[v _IOCBF IOCBF `VEuc  1 e 1 @918 ]
+"4661
+[v _ACKDT ACKDT `VEb  1 e 0 @4277 ]
+"4663
+[v _ACKEN ACKEN `VEb  1 e 0 @4276 ]
+"4685
+[v _ADIE ADIE `VEb  1 e 0 @1166 ]
+"4759
+[v _BCLIF BCLIF `VEb  1 e 0 @147 ]
+"4859
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"4863
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @1257 ]
+"4869
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"4875
+[v _IOCBF0 IOCBF0 `VEb  1 e 0 @7344 ]
+"4923
+[v _IOCIE IOCIE `VEb  1 e 0 @91 ]
+"4925
+[v _IOCIF IOCIF `VEb  1 e 0 @88 ]
+"4943
+[v _LATA4 LATA4 `VEb  1 e 0 @2148 ]
+"4993
+[v _LATD5 LATD5 `VEb  1 e 0 @2173 ]
+"5021
+[v _PEN PEN `VEb  1 e 0 @4274 ]
+"5049
+[v _RB1 RB1 `VEb  1 e 0 @105 ]
+"5079
+[v _RCEN RCEN `VEb  1 e 0 @4275 ]
+"5097
+[v _RD4 RD4 `VEb  1 e 0 @124 ]
+"5113
+[v _RSEN RSEN `VEb  1 e 0 @4273 ]
+"5135
+[v _SEN SEN `VEb  1 e 0 @4272 ]
+"5149
+[v _SSPIE SSPIE `VEb  1 e 0 @1163 ]
+"5151
+[v _SSPIF SSPIF `VEb  1 e 0 @139 ]
+"5217
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"5219
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"5233
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1160 ]
+"5235
+[v _TMR1IF TMR1IF `VEb  1 e 0 @136 ]
+"18 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\MLX_read.h
+[v _MLX_Slave_toggel MLX_Slave_toggel `b  1 e 0 0 ]
+"19
+[v _junk junk `uc  1 e 1 0 ]
+"69 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\PGM_5.c
+[v _grad_90_1 grad_90_1 `uc  1 e 1 0 ]
+"70
+[v _grad_90_2 grad_90_2 `uc  1 e 1 0 ]
+"71
+[v _grad_90links_1 grad_90links_1 `uc  1 e 1 0 ]
+"72
+[v _grad_90links_2 grad_90links_2 `uc  1 e 1 0 ]
+"74
+[v _PIC_Slave PIC_Slave `DCuc  1 e 1 0 ]
+"75
+[v _PIC_Letter_1 PIC_Letter_1 `DCuc  1 e 1 0 ]
+"76
+[v _MLX_Slave MLX_Slave `DCuc  1 e 1 0 ]
+"84
+[v _A_D_Wert A_D_Wert `[28]uc  1 e 28 0 ]
+"85
+[v _Channel Channel `[11]uc  1 e 11 0 ]
+"86
+[v _Channel_Index Channel_Index `uc  1 e 1 0 ]
+"88
+[v _I2C_Add I2C_Add `uc  1 e 1 0 ]
+"89
+[v _I2C_Index_w I2C_Index_w `uc  1 e 1 0 ]
+"90
+[v _I2C_Index_R I2C_Index_R `uc  1 e 1 0 ]
+"91
+[v _I2C_Write I2C_Write `b  1 e 0 0 ]
+"92
+[v _I2C_Read I2C_Read `b  1 e 0 0 ]
+"93
+[v _I2C_Count I2C_Count `uc  1 e 1 0 ]
+"94
+[v _Count Count `uc  1 e 1 0 ]
+"97
+[v _Datum_S Datum_S `[20]uc  1 e 20 0 ]
+"98
+[v _Datum1_an_Letter Datum1_an_Letter `uc  1 e 1 0 ]
+"99
+[v _Datum2_an_Letter Datum2_an_Letter `uc  1 e 1 0 ]
+"100
+[v _Flag_kalibrieren Flag_kalibrieren `b  1 e 0 0 ]
+"101
+[v _Register_S Register_S `uc  1 e 1 0 ]
+"102
+[v _Datum_R Datum_R `[3]uc  1 e 3 0 ]
+"103
+[v _Register_R_MLX Register_R_MLX `uc  1 e 1 0 ]
+"105
+[v _Tick Tick `i  1 e 2 0 ]
+"106
+[v _m m `uc  1 e 1 0 ]
+[v _n n `uc  1 e 1 0 ]
+"107
+[v _n_US n_US `uc  1 e 1 0 ]
+"110
+[v _Flag_LED Flag_LED `b  1 e 0 0 ]
+"114
+[v _VAR_von_mitte_bis_wieder_wand VAR_von_mitte_bis_wieder_wand `b  1 e 0 0 ]
+"117
+[v _VAR_Schwarz_ausrichten VAR_Schwarz_ausrichten `uc  1 e 1 0 ]
+"118
+[v _VAR_bis_wand_zeit VAR_bis_wand_zeit `uc  1 e 1 0 ]
+"119
+[v _VAR_aus_zeit VAR_aus_zeit `i  1 e 2 0 ]
+"121
+[v _VAR_zeit_opfer VAR_zeit_opfer `i  1 e 2 0 ]
+"126
+[v _VAR_omni VAR_omni `uc  1 e 1 0 ]
+"127
+[v _Var_lang_Ausrichten Var_lang_Ausrichten `uc  1 e 1 0 ]
+"128
+[v _Ausrichten_Fahren Ausrichten_Fahren `uc  1 e 1 0 ]
+"129
+[v _Ausrichten_Stopp Ausrichten_Stopp `uc  1 e 1 0 ]
+"131
+[v _Schwellwert_Ausrichten Schwellwert_Ausrichten `uc  1 e 1 0 ]
+"132
+[v _Schwellwert_Omni Schwellwert_Omni `uc  1 e 1 0 ]
+"133
+[v _VAR_im_Kreis_faren VAR_im_Kreis_faren `uc  1 e 1 0 ]
+"134
+[v _VAR_links_ist_nichts VAR_links_ist_nichts `uc  1 e 1 0 ]
+"138
+[v _wand wand `uc  1 e 1 0 ]
+"139
+[v _zuweit zuweit `uc  1 e 1 0 ]
+"140
+[v _zunah zunah `uc  1 e 1 0 ]
+"146
+[v _Register_R Register_R `[2]uc  1 e 2 0 ]
+"148
+[v _Temperatur_LO_rechts Temperatur_LO_rechts `uc  1 e 1 0 ]
+"149
+[v _Temperatur_LO_links Temperatur_LO_links `uc  1 e 1 0 ]
+"150
+[v _Temperatur_HI_rechts Temperatur_HI_rechts `uc  1 e 1 0 ]
+"151
+[v _Temperatur_HI_links Temperatur_HI_links `uc  1 e 1 0 ]
+"152
+[v _Waerme_links Waerme_links `uc  1 e 1 0 ]
+"153
+[v _Waerme_rechts Waerme_rechts `uc  1 e 1 0 ]
+"154
+[v _schwarz schwarz `uc  1 e 1 0 ]
+"156
+[v _Flag_Hindernis Flag_Hindernis `b  1 e 0 0 ]
+"157
+[v _Flag_T_links Flag_T_links `b  1 e 0 0 ]
+"158
+[v _Flag_T_rechts Flag_T_rechts `b  1 e 0 0 ]
+"159
+[v _nicht_rechts nicht_rechts `b  1 e 0 0 ]
+"161
+[v _Encoder Encoder `uc  1 e 1 0 ]
+"162
+[v _encodersave encodersave `uc  1 e 1 0 ]
+"163
+[v _Strecke Strecke `i  1 e 2 0 ]
+"164
+[v _Flag_Strecke_erreicht Flag_Strecke_erreicht `b  1 e 0 0 ]
+"165
+[v _Flag_Strecke_messen Flag_Strecke_messen `b  1 e 0 0 ]
+"207
+[v _main main `(v  1 e 1 0 ]
+{
+"333
+} 0
+"339
+[v _von_sensor_VR_bis_mitte von_sensor_VR_bis_mitte `(v  1 e 1 0 ]
+{
+"348
+} 0
+"349
+[v _von_mitte_bis_wieder_wand von_mitte_bis_wieder_wand `(v  1 e 1 0 ]
+{
+"382
+} 0
+"724
+[v _schwarzeplatte schwarzeplatte `(v  1 e 1 0 ]
+{
+"795
+} 0
+"383
+[v _von_mitte_bis_wieder_wand_in_schwarzeplatte von_mitte_bis_wieder_wand_in_schwarzeplatte `(v  1 e 1 0 ]
+{
+"418
+} 0
+"796
+[v _hindernis hindernis `(v  1 e 1 0 ]
+{
+"825
+} 0
+"870
+[v _ausrichten ausrichten `(v  1 e 1 0 ]
+{
+"891
+} 0
+"892
+[v _vorne_ausrichten vorne_ausrichten `(v  1 e 1 0 ]
+{
+"981
+} 0
+"1072
+[v _rechts_ausrichten rechts_ausrichten `(v  1 e 1 0 ]
+{
+"1095
+} 0
+"487
+[v _omnifakerechts omnifakerechts `(v  1 e 1 0 ]
+{
+"517
+} 0
+"450
+[v _omnifakelinks omnifakelinks `(v  1 e 1 0 ]
+{
+"486
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"1048 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\PGM_5.c
+[v _links_ausrichten links_ausrichten `(v  1 e 1 0 ]
+{
+"1071
+} 0
+"982
+[v _hinten_ausrichten hinten_ausrichten `(v  1 e 1 0 ]
+{
+"1047
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 4 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 40 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 44 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 39 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 31 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 26 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 30 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 29 ]
+[v ___ftmul@exp exp `uc  1 a 1 25 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 15 ]
+[v ___ftmul@f2 f2 `f  1 p 3 18 ]
+"157
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"859 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\PGM_5.c
+[v _Power_Ausrichten Power_Ausrichten `(v  1 e 1 0 ]
+{
+"868
+} 0
+"8 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\Init.h
+[v _init init `(v  1 e 1 0 ]
+{
+"56
+} 0
+"827 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\PGM_5.c
+[v _im_Kreis_faren im_Kreis_faren `(v  1 e 1 0 ]
+{
+"858
+} 0
+"674
+[v _anderwandlang anderwandlang `(v  1 e 1 0 ]
+{
+"723
+} 0
+"559
+[v _opfer opfer `(v  1 e 1 0 ]
+{
+"649
+} 0
+"420
+[v _rechts90grad rechts90grad `(v  1 e 1 0 ]
+{
+"434
+} 0
+"435
+[v _links90grad links90grad `(v  1 e 1 0 ]
+{
+"449
+} 0
+"1149
+[v _Strecke_fahren Strecke_fahren `(v  1 e 1 0 ]
+{
+[v Strecke_fahren@Length Length `uc  1 a 1 wreg ]
+[v Strecke_fahren@Length Length `uc  1 a 1 wreg ]
+[v Strecke_fahren@Direction Direction `uc  1 p 1 4 ]
+[v Strecke_fahren@Length Length `uc  1 a 1 5 ]
+"1159
+} 0
+"650
+[v _kit_abwerfen kit_abwerfen `(v  1 e 1 0 ]
+{
+"665
+[v kit_abwerfen@i_279 i `uc  1 a 1 2 ]
+"659
+[v kit_abwerfen@i_278 i `uc  1 a 1 1 ]
+"652
+[v kit_abwerfen@i i `uc  1 a 1 0 ]
+"672
+} 0
+"546
+[v _Werte_auf_LCD_anzeigen Werte_auf_LCD_anzeigen `(v  1 e 1 0 ]
+{
+"547
+[v Werte_auf_LCD_anzeigen@i i `uc  1 a 1 5 ]
+"558
+} 0
+"1162
+[v _Interrupt Interrupt `II(v  1 e 1 0 ]
+{
+"1403
+} 0
+"29 C:\Users\Jakob\Desktop\Robo\HKIWS Kanadaa\JakobSimon Kanadaa\MLX_read.h
+[v _MLX_read MLX_read `(v  1 e 1 0 ]
+{
+"74
+} 0
+"21
+[v _warten_auf_SSP_flag warten_auf_SSP_flag `(v  1 e 1 0 ]
+{
+"24
+} 0
